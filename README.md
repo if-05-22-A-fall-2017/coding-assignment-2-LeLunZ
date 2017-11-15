@@ -1,7 +1,7 @@
-### IF.05.22 Theoretical Informatics -- Winter 2017
-# Assignment 6: Coding Assignment
+2. Express the query "Who is the parent of pat?" in Prolog:
 
+parent(X, pat).
 
-Go through the text given in [gPrologReference](gPrologReference.md) and play through all examples. You shall familiarize yourself with the `gprolog` system.
+3. Express the query "Does lisa have a child?"
 
-After this do all the required tasks given in the [coding assignment](CodingAssignment.md).
+parent(lisa, X).
